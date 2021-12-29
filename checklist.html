@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="nav.css" rel="stylesheet" type="text/css"/>
+    <link href="table.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <script src="checklist.js"></script>
+    
+    <header>
+      <h1>COVID-19</h1>
+      <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="checklist.html" class="active">Checklist</a>
+      <a href="resources.html">Resources</a>
+      </a>
+      </div>
+    </header>
+
+    &nbsp
+    <h2>Find out how many of the following sypmtoms you have: </h2>
+    <table>
+      <tr>
+        <th>Symptoms</th>
+        <th>Cold</th>
+        <th>Flu</th>
+        <th>Allergies</th>
+        <th>COVID</th>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Fever</form></td>
+        <td>Rare</td>
+        <td>High</td>
+        <td>Never</td>
+        <td>Common</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Headache</form></td>
+        <td>Rare</td>
+        <td>Intense</td>
+        <td>Uncommon</td>
+        <td>Can occur</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Aches/pains</form></td>
+        <td>Slight</td>
+        <td>Usual/severe</td>
+        <td>Never</td>
+        <td>Can occur</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Fatigue</form></td>
+        <td>Mild</td>
+        <td>Intense</td>
+        <td>Sometimes</td>
+        <td>Can occur</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Exhaustion</form></td>
+        <td>Never</td>
+        <td>Usual</td>
+        <td>Never</td>
+        <td>Can occur</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Stuffy/Runny Nose</form></td>
+        <td>Common</td>
+        <td>Sometimes</td>
+        <td>Common</td>
+        <td>Has been reported</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Sore Throat</form></td>
+        <td>Common</td>
+        <td>Common</td>
+        <td>Sometimes</td>
+        <td>Has been reported</td>
+      </tr>
+      <tr>
+        <td><form><input type = "checkbox"/>Cough</form></td>
+        <td>Mild-moderate</td>
+        <td>Common, can be severe</td>
+        <td>Sometimes</td>
+        <td>Common</td>
+      </tr>
+      <tr>
+         <td><form><input type = "checkbox"/>Shortness of Breath</form></td>
+        <td>Rare</td>
+        <td>Rare</td>
+        <td>Rare in those without asthma</td>
+        <td>In serious cases</td>
+      </tr>
+    </table>
+    
+    &nbsp
+    <button onclick="countChecks()" type="button" class="block">Results</button>
+
+  </body>
+</html>

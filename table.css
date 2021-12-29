@@ -1,0 +1,21 @@
+h2 {
+  color: #404040;
+}
+table, th, td {
+  border:1px solid lightgray;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+.block {
+  display: block;
+  width: 25%;
+  border: none;
+  margin: auto;
+  background-color: #6293a7;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}

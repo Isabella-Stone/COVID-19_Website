@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="nav.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>COVID-19</h1>
+      <div class="topnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="checklist.html">Checklist</a>
+      <a href="resources.html">Resources</a>
+      </a>
+      </div>
+    </header>
+
+    &nbsp
+    &nbsp
+    <script>
+      var slides = [];
+      slides[0] = 'image1.jpg';
+      slides[1] = 'image2.jpg';
+      slides[2] = 'image3.jpg';
+
+      var i = 0;
+      var time = 2000;
+      function slideshow() {
+        document.slide.src = slides[i];
+        if (i < slides.length - 1) {
+          i++;
+        }
+        else {
+          i = 0;
+        }
+        setTimeout("slideshow()", time);
+      }
+      window.onload = slideshow;
+    </script>
+    <img name="slide" width="1500" height="700">
+
+  </body>
+</html>
